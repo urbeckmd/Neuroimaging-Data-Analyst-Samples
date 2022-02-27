@@ -9,6 +9,13 @@ NOTES: Labels are:
             "FOAM" - foam is present in the bottle. Cannot get accurate volumetric reading
             "GREATER" - volume is greater than 20 mL
             "LESS" - volume is less than 20 mL
+            
+       Keys to sort images:
+            Space - Foam is present in the bottle
+            Backspace - Greater than 20 mL
+            Tab - Less than 20 mL
+            Escape - Exit the program
+            
 '''
 import os
 import cv2
