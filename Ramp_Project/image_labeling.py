@@ -174,7 +174,7 @@ for json_folder in os.listdir(RAW_DIR):
         
         obj_gt_lst = '{'+' '+"Ramp "*num_objects+'}'
 
-        # Write data to annotation file; necessary for LabelMe software
+        # Write data to annotation file; Details aren't important. Only necessary for LabelMe software
         with open(f'{ANNON_DIR}/{root_name}.txt','a') as f:
             f.write('# Compatible with PASCAL Annotation Version 1.00\n')
             f.write(f'Image filename : "{DATASET_NAME}/{IMAGE_FOLDER_NAME}/{root_name}.png"\n')
@@ -194,7 +194,7 @@ for json_folder in os.listdir(RAW_DIR):
         # Move image from Dataset folder to RampImages folder 
         shutil.copy(os.path.join(RAW_DIR, json_folder, 'img.png'), os.path.join(IMAGES_DIR, f'{root_name}.png'))
         
-        # Write data to added-object-list; necessary for LabelMe software
+        # Write data to added-object-list; Details aren't important. Only necessary for LabelMe software
         with open(f'{os.path.join(ROOT_DIR, DATASET_NAME)}/added-object-list.txt','a') as added_file_2:
             added_file_2.write(f'{root_name}.png\t{num_objects}\n')
 
