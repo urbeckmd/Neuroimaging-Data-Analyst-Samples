@@ -9,36 +9,36 @@ DESCRIPTION: OpenCV is used to capture frame of a video feed for open eyes
 
 DIRECTORY:
 
-		CWD--
+		    CWD--
 			|
 			|
 			-- Closed_Eyes--
-			|			   |
-			|			   -- *Where Closed Eye images are placed after video feed
+			|		|
+			|		-- *Where Closed Eye images are placed after video feed
 			|
 			-- Open_Eyes--
-			|			 |
-			|			 -- *Where Open Eye images are placed after video feed
+			|	     |
+			|	     -- *Where Open Eye images are placed after video feed
 			|
 			-- train --
-			|		  |
-			|		  -- Closed_Eyes--
-			|		  |				 | 
-			|		  |				 -- *Where closed eye images are placed after splitting data into training/validation
-			|		  |
-			|		  -- Open_Eyes--
-			|		  			   |
-			|		  			   -- *Where open eye images are placed after splitting data into training/validation
+			|         |
+			|	  -- Closed_Eyes--
+			|         |		 | 
+			|         |		 -- *Where closed eye images are placed after splitting data into training/validation
+			|	  |
+			|         -- Open_Eyes--
+			|		       |
+			|		       -- *Where open eye images are placed after splitting data into training/validation
 			|
 			-- validation --
-						   |
-						   -- Closed_Eyes--
-						   |			  |
-						   |			  -- *Where closed eye images are placed after splitting data into training/validation
-						   |
-						   -- Open_Eyes--
-						   				|
-						   				-- *Where open eye images are placed after splitting data into training/validation
+				       |
+				       -- Closed_Eyes--
+				       |	      |
+				       |	      -- *Where closed eye images are placed after splitting data into training/validation
+				       |
+				       -- Open_Eyes--
+						    |
+						    -- *Where open eye images are placed after splitting data into training/validation
 						   				 
 
 '''
