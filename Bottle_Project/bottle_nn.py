@@ -1,16 +1,16 @@
 '''
 Image classifier 
 
-Used Pytorch documentation to modify a pretrained CNN to determine the volume range
+DESCRIPTION: Used Pytorch documentation to modify a pretrained CNN to determine the volume range
 of blood within a vial
 
-Images were labeled as:
-    "Foam" - foam is present within the bottle.
-    "Greater" - volume is greater than 20 mL.
-    "Less" - volume is less than 20mL.
+NOTES: Images were labeled as:
+            "Foam" - foam is present within the bottle.
+            "Greater" - volume is greater than 20 mL.
+            "Less" - volume is less than 20mL.
 
-CNN was trained on 150 images so volume range had to be rather large
-More training images would allow for exact mL measures or 5 mL ranges.
+        CNN was trained on 150 images so volume range had to be rather large
+        More training images would allow for exact mL measures or 5 mL ranges.
 '''
 
 
